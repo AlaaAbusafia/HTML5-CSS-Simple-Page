@@ -36,6 +36,7 @@ body{
 	background-color: #fff; 
 	color: #000;
 	font-family: 15px/1.5 "font5","Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0px;
 }
 .OA-background{
 	background: url("../exported assets/AO-header.jpg") center top no-repeat;
