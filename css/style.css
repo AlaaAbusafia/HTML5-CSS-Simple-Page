@@ -1,0 +1,189 @@
+
+@font-face {
+    font-family: font1;
+    src: url(../Document fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(../Document fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(../Document fonts/ProximaNova-Regular.otf);
+}
+@font-face {
+    font-family: font4;
+    src: url(../Document fonts/ProximaNova-Bold.otf);
+}
+@font-face {
+    font-family: font5;
+    src: url(../Document fonts/Blanch-Caps.otf);
+}
+@font-face {
+    font-family: font6;
+    src: url(../Document fonts/FontAwesome.otf);
+}
+@font-face {
+    font-family: font7;
+    src: url(../Document fonts/HelveNeuRom.otf);
+}
+@font-face {
+    font-family: font8;
+    src: url(../Document fonts/HelveticaNeue-Roman.otf);
+}
+body{
+	-webkit-font-smoothing: antialiased;
+	background-color: #fff; 
+	color: #000;
+	font-family: 15px/1.5 "font5","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.OA-background{
+	background: url("../exported assets/AO-header.jpg") center top no-repeat;
+	margin: 0px auto 2% auto;
+}
+
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(../exported assets/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../exported assets/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+.container{
+	padding-bottom: 70px;
+}
+
+.AO-title{
+	margin: 5% auto 6% auto;
+}
+.col-sm-7{
+	padding-right: 6%
+}
+.col-sm-7 h5{
+	font-size: 16px;
+	cursor: pointer;
+}
+.subscribe-form{
+	padding: 10% 5%;
+	background-color: #0f3758;
+	color: #fff;
+}
+.subscribe-form .btn{
+	background-color: #169ef1;
+}
+.topspace{
+	margin: 20px 0 10px 0;
+}
+.lightG{
+	color: #63ac96;
+}
+.lightB{
+	color: #46809d;
+}
+.lightP{
+	color: #88509a;
+}
+.contactdata{
+	color: #373d41
+}
+.contactdata span{
+	color: #e6e000
+}
+.pborder{
+	border-left: 8px solid;
+	padding-left: 20px;
+	font-family: font3;
+}
