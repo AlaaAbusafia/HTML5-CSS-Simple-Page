@@ -155,6 +155,11 @@ body{
 .col-sm-7 h5{
 	font-size: 16px;
 	cursor: pointer;
+	transform: rotate(0deg);
+	transition: transform 0.5s;
+}
+.col-sm-7:hover h5{
+	transform: rotate(-45deg);
 }
 .subscribe-form{
 	padding: 10% 5%;
